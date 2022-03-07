@@ -1,0 +1,46 @@
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+
+}
+
+.register{
+	
+	width: 500px;
+	height: 80vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	
+	position: absolute;
+	content: '';
+	top: 10%;
+	border: 1px solid blue;
+	box-shadow: 5px 10px blue;
+}
+.register h1{
+	text-align: center;
+}
+.input-group{
+	
+	width: 85%;
+	padding: 20px 40px;
+}
+.log-btn{
+	padding: 20px 40px;
+}
+.input-icon{
+	padding-right: 15px;
+}

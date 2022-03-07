@@ -1,0 +1,57 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: rgb(186, 212, 190);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img{
+	position: absolute;
+	content: '';
+	left: 28%;
+	top: -20%;
+	height: 140px;
+	width: 140px;
+	
+}
+
+
+.login{
+	position: absolute;
+	content: '';
+	top: 30%;
+}
+.card{
+	height: 350px;
+	width: 350px;
+	text-align: center;
+	background-color: #fff;
+}
+.form{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;padding: 80px 25px;
+}
+.input-group{
+
+	width: 90%;
+}
+input[type=checkbox], input[type=radio]{
+	margin-top: 0.5rem;
+	margin-right: 0.2rem;
+}
+.input-icon{
+	margin-bottom: 35px;
+	margin-right: 5px;
+	padding-top: 8px;
+}
+.login-btn{
+	width: 90%;
+}
+
